@@ -1,0 +1,15 @@
+# 1. Secret Environment Variables (NEVER UPLOAD)
+.env
+
+# 2. Virtual Environment (Too big, users make their own)
+venv/
+env/
+
+# 3. Temporary Audio Files
+temp_mic.wav
+*.wav
+
+# 4. Python Cache Junk
+__pycache__/
+*.pyc
+.vscode/
