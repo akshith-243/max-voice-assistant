@@ -124,7 +124,7 @@ def main():
         config=types.GenerateContentConfig(system_instruction=sys_instruct)
     )
     
-    speak("your swan is online with PC automation enabled to help you, user. ")
+    speak(" MAX is online with PC automation enabled to help you, user. ")
 
     while True:
         try:
