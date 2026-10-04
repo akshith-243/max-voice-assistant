@@ -16,7 +16,7 @@ if not api_key:
 client = genai.Client(api_key=api_key)
 
 # 3. Model identifier that is verified working on your key
-MODEL_ID = "gemma-4-26b-a4b-it"
+MODEL_ID = "gemini-3.5-flash-lite"  # Change this to whatever model name you are currently using
 
 
 def run_assistant() -> None:
